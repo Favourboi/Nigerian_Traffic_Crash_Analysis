@@ -8,7 +8,7 @@ library(randomForest)
 library(lubridate)
 
 # Loading the dataset (assuming it's in CSV format)
-crashes <- read.csv("C:\\Users\\DELL\\Downloads\\Nigerian_Road_Traffic_Crashes_2020_2024.csv")
+crashes <- read.csv("Nigerian_Road_Traffic_Crashes_2020_2024.csv")
 
 # Converting Quarter to a date for time series analysis
 crashes <- crashes %>%
